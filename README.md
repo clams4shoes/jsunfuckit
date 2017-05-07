@@ -1,7 +1,5 @@
 # JSUNFuckIt
 
----
-
 Encodes or Decodes Javascript using JSFuck 0.4.0
 
 *__see__* https://github.com/aemkei/jsfuck
