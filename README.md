@@ -7,11 +7,11 @@ Encodes or Decodes Javascript using JSFuck 0.4.0
 *\*note this differs slightly from the JSFuck served at http://www.jsfuck.com/*
 
 ##### usage
-```shell
+```
 usage:
-	'python jsunfuck.py <option> <flags> <file>'
+	'python jsunfuckit.py <option> <flags> <file>'
  	options:
-    	decode -- decodes jsfuck\'d Javascript
+    	decode -- decodes jsfuck'd Javascript
         encode -- encodes vanilla Javascript
             flags:
                 -e | --eval: wrap in eval
@@ -21,6 +21,6 @@ usage:
 ##### output
 
 ```js
-$ python jsunfuck.py decode tests/encoded.js
+$ python jsunfuckit.py decode tests/encoded.js
 alert('hello, world!');
 ```
